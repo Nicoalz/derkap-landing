@@ -34,7 +34,7 @@ export default function Group() {
           </span>
           <Badge status='posting' />
         </div>
-        <button className='absolute right-0 bg-purple text-white rounded-full aspect-square px-2 py-2 focus:outline-none focus:ring focus:ring-violet-300'>
+        <button aria-label='share button' className='absolute right-0 bg-purple text-white rounded-full aspect-square px-2 py-2 focus:outline-none focus:ring focus:ring-violet-300'>
           <SquareArrowOutUpRight size={14} />
         </button>
       </div>
@@ -42,7 +42,7 @@ export default function Group() {
       <div className='w-full flex justify-between items-center'>
         <ul className='list-none flex'>
           {group.members.map((member, index) => (
-            <div
+            <li
               className={`flex flex-col items-center ${index !== 0 && '-ml-2'}`}
               style={{ zIndex: group.members.length - index }}
               key={index}
@@ -54,7 +54,7 @@ export default function Group() {
                 height={40}
                 className='min-w-10 min-h-10 max-h-10 max-w-10 rounded-full object-cover'
               />
-            </div>
+            </li>
           ))}
         </ul>
       </div>
