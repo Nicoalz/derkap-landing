@@ -30,9 +30,8 @@ body {
   font-family: var(--font-champ), sans-serif;
   line-height: 1.6;
   background: linear-gradient(
-    to right,
-    #f6d5f780,
-    #fbe9d780
+    #fbe9d780,
+    #f6d5f780
   );
   min-height: calc(100% + env(safe-area-inset-top));
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
