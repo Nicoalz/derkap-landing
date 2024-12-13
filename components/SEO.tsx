@@ -9,16 +9,14 @@ const SEO = ({
   return (
     <Head>
       <meta charSet='utf-8' />
-      <meta name='viewport' content='width=device-width, initial-scale=1' />
-      <meta name='msapplication-TileColor' content='#9747FF' />
-      <meta name='theme-color' content='#ffffff' />
+      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"></meta>
       <meta name='apple-mobile-web-app-title' content='Derkap' />
-      <meta name='mobile-web-app-capable' content='yes' />
-      <meta name='apple-mobile-web-app-capable' content='yes' />
-      <meta
-        name='apple-mobile-web-app-status-bar-style'
-        content='black-translucent'
-      />
+
+      <meta name='msapplication-TileColor' content='#9747FF' />
+      <meta name='theme-color' content='#fbe9d780' />
+      <meta name="apple-mobile-web-app-capable" content="yes"/>
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
       <meta name='description' content={description} />
       <meta
         name='keyword'

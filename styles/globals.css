@@ -24,31 +24,20 @@
 
 html {
   font-size: 62, 5%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #123456;
 }
 
 body {
-  height: 100vh;
-  min-height: 100%;
-  padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom); 
   font-family: var(--font-champ), sans-serif;
   line-height: 1.6;
-  background-color: #123456;
-  /* background: linear-gradient(
+  background: linear-gradient(
     to right,
-    rgba(246, 213, 247, 0.5),
-    rgba(251, 233, 215, 0.5)
-  ); */
-}
-
-@supports (padding: env(safe-area-inset-top)) {
-  body {
-    padding: 0;
-  }
+    #f6d5f780,
+    #fbe9d780
+  );
+  min-height: calc(100% + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  margin-bottom: env(safe-area-inset-bottom);
+  scroll-behavior: smooth;
 }
 
 a {
