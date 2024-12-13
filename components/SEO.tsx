@@ -12,8 +12,7 @@ const SEO = ({
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='msapplication-TileColor' content='#9747FF' />
       <meta name='theme-color' content='#ffffff' />
-      <title>{title}</title>
-      <meta name='apple-mobile-web-app-title' content={title} />
+      <meta name='apple-mobile-web-app-title' content='Derkap' />
       <meta name='mobile-web-app-capable' content='yes' />
       <meta name='apple-mobile-web-app-capable' content='yes' />
       <meta
@@ -28,10 +27,7 @@ const SEO = ({
       <meta name='google' content='notranslate' />
 
       {/* OGTAGS */}
-      <meta
-        property='og:site_name'
-        content='Derkap - Défis Fun Entre Amis'
-      />
+      <meta property='og:site_name' content='Derkap - Défis Fun Entre Amis' />
       <meta property='og:title' content={title} />
       <meta property='og:locale' content='fr_FR' />
       <meta property='og:description' content={description} />
@@ -41,17 +37,31 @@ const SEO = ({
 
       {/* TWITTER CARDS  */}
       <meta property='twitter:card' content='summary_large_image' />
-      <meta
-        property='twitter:title'
-        content={title}
-      />
+      <meta property='twitter:title' content={title} />
       <meta property='twitter:description' content={description} />
       <meta property='twitter:image' content={image} />
       <meta property='twitter:url' content={url} />
       <meta property='twitter:domain' content='derkap.fr' />
 
+      {/* FAVICON */}
+      <link
+        rel='icon'
+        type='image/png'
+        href='/favicon/favicon-96x96.png'
+        sizes='96x96'
+      />
+      <link rel='icon' type='image/svg+xml' href='/favicon/favicon.svg' />
+      <link rel='shortcut icon' href='/favicon/favicon.ico' />
+      <link
+        rel='apple-touch-icon'
+        sizes='180x180'
+        href='/favicon/apple-touch-icon.png'
+      />
+      <link rel='manifest' href='/favicon/site.webmanifest' />
+
       {/* SEO */}
       <link rel='canonical' href={url} />
+      <title>{title}</title>
     </Head>
   );
 };
