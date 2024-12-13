@@ -18,6 +18,12 @@
   display: none;
 }
 
+@supports (padding: env(safe-area-inset-top)) {
+  body {
+    padding: 0;
+  }
+}
+
 .font-inter {
   font-family: 'Inter', sans-serif;
 }
