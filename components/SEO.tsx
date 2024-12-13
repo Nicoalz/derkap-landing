@@ -13,7 +13,7 @@ const SEO = ({
       <meta name='apple-mobile-web-app-title' content='Derkap' />
 
       <meta name='msapplication-TileColor' content='#9747FF' />
-      <meta name='theme-color' content='#fbe9d780' />
+      <meta name='theme-color' content='#f8ece0' />
       <meta name="apple-mobile-web-app-capable" content="yes"/>
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
