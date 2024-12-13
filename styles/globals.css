@@ -24,9 +24,12 @@
 
 html {
   font-size: 62, 5%;
+  height: -webkit-fill-available;
 }
 
 body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   font-family: var(--font-champ), sans-serif;
   line-height: 1.6;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
