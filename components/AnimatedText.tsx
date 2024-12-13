@@ -79,7 +79,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
     <div ref={containerRef} className={className}>
       {words.map((item, index) => (
         <span key={index} className="inline-block overflow-hidden">
-          <span className={`anim-text inline-block ${item.className || ''}`}>
+          <span className={`anim-text inline-block font-bold ${item.className || ''}`}>
             {item.word}
             {index !== words.length - 1 && '\u00A0'}
           </span>

@@ -65,7 +65,7 @@ export default function Hero() {
 
       <AnimatedText
         className='hero-title w-4/5 text-3xl text-center text-pretty'
-        text='Tape toi des barres en <span className="text-purple">défiant</span> tes potes'
+        text='Tape toi des barres en <span className="text-purple font-bold">défiant</span> tes potes'
         isScrollTriggered={false}
       />
 

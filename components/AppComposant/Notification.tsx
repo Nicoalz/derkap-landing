@@ -5,7 +5,7 @@ const ChallengeBox = () => {
         <p className='text-3xl text-center'>😹</p>
       </div>
       <div className='w-full flex flex-col gap-1'>
-        <p className='text-sm text-black line-clamp-2 '>Fais une demande en mariage dans la rue 💍</p>
+        <p className='text-sm text-black line-clamp-2 font-black text-nowrap'>Fais une demande en mariage dans la rue 💍</p>
         <div className='flex items-center gap-1'>
           <p className='text-sm line-clamp-1 font-sans'>Par Augustin</p>
         </div>

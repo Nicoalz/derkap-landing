@@ -1,12 +1,12 @@
 import { ReactNode } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { champFont } from '@/public/font/font';
+import { bricolageGrotesqueFont } from '@/public/font/font';
 
 const Layout = ({ children }: { children: ReactNode }) => {
 
   return (
-    <div className={`overflow-hidden mx-auto ${champFont.className}`}>
+    <div className={`overflow-hidden mx-auto ${bricolageGrotesqueFont.className}`}>
       <Header />
       {children}
       <Footer />

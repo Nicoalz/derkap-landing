@@ -79,7 +79,7 @@ const ScrollLine = ({
       <div
         ref={lineRef}
         className={clsx(
-          'absolute h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2',
+          'absolute h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold',
           'flex items-center justify-center gap-2 md:gap-2',
           bgColor
         )}

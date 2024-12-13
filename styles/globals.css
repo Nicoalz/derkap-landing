@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: var(--font-champ), sans-serif;
+  font-family: var(--font-bricolage-grotesque), sans-serif;
   line-height: 1.6;
   background: linear-gradient(
     #f8ece0,
@@ -37,6 +37,15 @@ body {
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   margin-bottom: env(safe-area-inset-bottom);
   scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
 }
 
 a {

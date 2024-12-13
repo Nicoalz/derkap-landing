@@ -164,7 +164,7 @@ export default function Header() {
       <nav className="nav-burger h-16 w-full px-4 py-2 rounded-xl border-2 border-black bg-white/50 backdrop-blur-md">
         <div className="h-11 flex justify-between items-center">
           <div className="overflow-hidden">
-            <a href="#hero" className="header-link text-black inline-block text-xl">
+            <a href="#hero" className="header-link text-black inline-block text-xl font-black">
               DERKAP
             </a>
           </div>

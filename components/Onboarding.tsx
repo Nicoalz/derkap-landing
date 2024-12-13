@@ -114,11 +114,11 @@ export default function Onboarding() {
         </div>
         <div className='w-full md:w-1/2'>
           <div className='relative h-[100px] overflow-hidden'>
-            <p ref={text1Ref} className='text-xl absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
+            <p ref={text1Ref} className='text-xl absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-bold'>
               Créer un groupe avec tes potes et mets les à l&apos;épreuve grâce à
               DERKAP
             </p>
-            <p ref={text2Ref} className='text-xl absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
+            <p ref={text2Ref} className='text-xl absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-bold'>
               Vote pour celui ou celle qui réalisera le DERKAP le plus fou 🤪
             </p>
           </div>
