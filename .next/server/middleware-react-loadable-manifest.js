@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components/Hero.tsx -> ./AnimatedText\":{\"id\":\"components/Hero.tsx -> ./AnimatedText\",\"files\":[\"static/chunks/components_AnimatedText_tsx.js\"]},\"pages/index.tsx -> @/components/AnimatedText\":{\"id\":\"pages/index.tsx -> @/components/AnimatedText\",\"files\":[\"static/chunks/components_AnimatedText_tsx.js\"]}}"
