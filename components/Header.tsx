@@ -1,8 +1,9 @@
+import Link from 'next/link';
+import { useEffect, useState, useCallback } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
-import Button from './Button';
-import { useEffect, useState, useCallback } from 'react';
 import { useLenis } from '@studio-freight/react-lenis';
+import Button from './Button';
 
 interface AnimationConfig {
   duration: number;
@@ -147,7 +148,7 @@ export default function Header() {
       <a
         key={item.href}
         href={item.href}
-        onClick={handleMenuToggle}
+        onClick={isMobile ? handleMenuToggle : () => {}}
         className={`${
           isMobile
             ? 'mobile-menu-item text-2xl text-center text-pretty'
@@ -164,9 +165,9 @@ export default function Header() {
       <nav className="nav-burger h-16 w-full px-4 py-2 rounded-xl border-2 border-black bg-white/50 backdrop-blur-md">
         <div className="h-11 flex justify-between items-center">
           <div className="overflow-hidden">
-            <a href="#hero" className="header-link text-black inline-block text-xl font-black">
+            <Link href="/" className="header-link text-black inline-block text-xl font-black">
               DERKAP
-            </a>
+            </Link>
           </div>
 
           <div className="hidden sm:flex items-center justify-center gap-8 overflow-hidden">

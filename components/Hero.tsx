@@ -44,7 +44,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='max-w-screen-2xl mx-auto h-[100dvh] py-32 flex flex-col items-center justify-center gap-16 md:gap-8 px-2 md:px-4 relative'>
+    <div id='hero' className='max-w-screen-2xl mx-auto h-[100dvh] py-32 flex flex-col items-center justify-center gap-16 md:gap-8 px-2 md:px-4 relative'>
 
       <div className='pop-composant absolute bottom-4 md:bottom-1/3 -right-20 md:right-[2%] w-96 h-auto z-0' >
         <Group />
