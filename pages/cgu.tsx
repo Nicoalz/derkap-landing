@@ -2,13 +2,13 @@
 
 export default function Home() {
   return (
-    <div className="section-container max-w-screen-2xl mx-auto h-screen flex items-center justify-center overflow-hidden">
+    <div className="section-container max-w-screen-2xl mx-auto h-screen flex items-center justify-center overflow-hidden px-10">
         <p>
         1. Présentation de l&apos;Application {"\n"}
                   Derkap est une application mobile permettant aux utilisateurs
                   de créer et de participer à des challenges photo entre amis.
                   Editeur : Derkap Siège social : Paris, France Contact :
-                  contact.derkap@gmail.com L&apos;utilisation de l&apos;application
+                  derkap.dev@gmail.com L&apos;utilisation de l&apos;application
                   implique l&apos;acceptation sans réserve des présentes Conditions
                   Générales d&apos;Utilisation (CGU). {"\n"} {"\n"}
                   2. Accès et Utilisation de l&apos;Application {"\n"}

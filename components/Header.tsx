@@ -13,6 +13,7 @@ interface AnimationConfig {
 const MENU_ITEMS = [
   { href: '#onboarding', text: 'COMMENT ÇA MARCHE' },
   { href: '#contact', text: 'CONTACT' },
+  { href: '/cgu', text: 'CGU' },
 ];
 
 const ANIMATION_CONFIG: AnimationConfig = {
