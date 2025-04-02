@@ -95,7 +95,7 @@ export default function Onboarding() {
           <div className='w-full rounded-xl h-full flex relative overflow-hidden'>
             <Image
               ref={imgHomeRef}
-              src='/images/home.png'
+              src='/images/blurred.png'
               alt="Capture d'écran de l'application Derkap"
               width={1170}
               height={2532}
@@ -103,7 +103,7 @@ export default function Onboarding() {
             />
             <Image
               ref={imgGroupRef}
-              src='/images/group.png'
+              src='/images/capture.png'
               alt="Capture d'écran de l'application Derkap"
               width={1170}
               height={2532}
@@ -115,11 +115,10 @@ export default function Onboarding() {
         <div className='w-full md:w-1/2'>
           <div className='relative h-[100px] overflow-hidden'>
             <p ref={text1Ref} className='text-xl absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-bold'>
-              Créer un groupe avec tes potes et mets les à l&apos;épreuve grâce à
-              DERKAP
+              Pour voir le Derkap de tes potes...
             </p>
             <p ref={text2Ref} className='text-xl absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-bold'>
-              Vote pour celui ou celle qui réalisera le DERKAP le plus fou 🤪
+              Réalise le défi et partage le à tes amis !
             </p>
           </div>
         </div>

@@ -15,14 +15,14 @@ export default function Home() {
       <div className='w-full h-full'>
         <Hero />
         <Lines
-          textOne='Relève les Défis • DERKAP •'
-          textTwo='Relève les Défis • DERKAP •'
+          textOne='Tape toi des barres avec tes potes ! • DERKAP •'
+          textTwo='Tape toi des barres avec tes potes ! • DERKAP •'
           black
         />
         <Onboarding />
         <Lines
-          textOne='Relève les Défis • DERKAP •'
-          textTwo='Relève les Défis • DERKAP •'
+          textOne='Tape toi des barres avec tes potes ! • DERKAP •'
+          textTwo='Tape toi des barres avec tes potes ! • DERKAP •'
           purple
         />
         <div className='section-container max-w-screen-2xl mx-auto h-screen flex items-center justify-center overflow-hidden'>
